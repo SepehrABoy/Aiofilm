@@ -1,0 +1,140 @@
+@font-face {
+    font-family: Iran-sans;
+    src: url(../fonts/Iranian\ Sans.ttf);
+}
+
+.in-bl {
+    display: inline-block;
+}
+
+.anime-title {
+    font-size: 20px;
+    font-weight: 400;
+    color: white;
+}
+
+
+.prop {
+    width: 700px;
+    /* border: solid 1px red; */
+    display: inline-block;
+}
+
+.row {
+    margin: 0px auto;
+    margin-top: 50px;
+    /* border: solid 1px red; */
+    width: 1050px;
+    color: white;
+}
+
+.per-title {
+    font-size: 12px;
+    color: rgb(137, 143, 153)!important;
+}
+
+span {
+    color: rgb(223, 223, 223);
+}
+
+/* qwe */
+.qwe1 {
+    width: 45px;
+    border-radius: 4px;
+}
+.qwe2 {
+    display: inline-block;
+    font-size: 20px;
+    font-weight: 600;
+    transform: translate(-2px, 2px);
+}
+.qwe3 {
+    display: inline-block;
+    font-size: 13px;
+    font-weight: 300;
+    margin-left: 20px;
+}
+/* qwe */
+
+/* asd */
+.asd1 {
+    display: inline-block;
+    border: solid 2px white;
+    border-radius: 4px;
+    padding: 2px 6px;
+}
+.asd2 {
+    display: inline-block;
+    border: solid 2px white;
+    border-radius: 4px;
+    font-size: 16.5px;
+    padding: 0px 5px;
+    transform: translateY(1px);
+}
+/* asd */
+
+.anime-prop {
+    margin: 20px 0px;
+}
+
+.janr {
+    border-style: solid;
+    border-width: 0px 1px;
+    padding: 0px 10px;
+}
+
+.time {
+    padding-left:5px;
+}
+.contry {
+    padding-right: 5px;
+}
+
+/* released episodes */
+#episode {
+    display: inline-block;
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 160, 68, .39));
+    border-radius: 10px;
+    padding: 7px 10px;
+    margin-top: 10px;
+}
+#num-yel {
+    color: black;
+    font-weight: 800;
+    background-color: #ffb900;
+    padding: 0px 4px;
+    border-radius: 4px;
+}
+/* released episodes */
+
+/* date */
+.date {
+    margin-top: 120px;
+}
+
+.zxc1 {
+    padding-left: 5px;
+}
+.zxc2 {
+    padding-right: 10px;
+    border-style: solid;
+    border-width: 0px 1px 0px 0px;
+}
+/* date */
+
+/* releas end */
+.relea-state {
+    display: inline-block;
+    background-color: #059668;
+    padding: 14px 15px;
+    border-radius: 7px;
+    margin: 10px 0px;
+    margin-left: 5px;
+}
+/* releas end */
+
+.anime-description {
+    /* border: solid 1px red; */
+    margin: 10px auto;
+    width: 1050px;
+}

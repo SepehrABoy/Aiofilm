@@ -1,0 +1,59 @@
+#Links {
+    width: 1050px;
+    margin: 10px auto;
+    /* border: solid 1px red; */
+}
+
+.notice {
+    display: block;
+    background-image: linear-gradient(to left, #059668, #05966800);
+    padding: 10px;
+    margin: 10px auto;
+    border-radius: 5px;
+}
+
+.Links {
+    background-color: rgb(38, 40, 48);
+    border-radius: 10px;
+    padding-bottom: 20px;
+}
+
+.download {
+    position: relative;
+    display: block;
+    background-color: #18171a;
+    margin: 10px 30px;
+    border-style: solid;
+    border-radius: 5px;
+    padding: 15px 20px;
+    border-width: 0px 5px;
+    border-color: #000 #ffee00 #000 #810081;
+}
+
+.bluray {
+    display: block;
+    padding: 20px 30px;
+    padding-top: 40px;
+}
+
+.glow-on-hover {
+    width: 90px;
+    background-color: #111;
+    position: absolute;
+    border: none;
+    border-radius: 10px;
+    padding: 5px;
+    text-align: center;
+    color: white;
+    transform: translateY(-5px);
+    left: 10px;
+}
+.glow-on-hover:hover {
+    box-shadow: white 0px 0px 10px;
+    transition-duration: 0.5s;
+}
+.glow-on-hover:focus {
+    background-color: white;
+    color: #111;
+    transition-duration: 0;
+}

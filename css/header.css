@@ -1,0 +1,99 @@
+header {
+    /* border: solid white 1px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+
+
+#menu_icon1, #menu_icon2, #menu_icon3 {
+    background: white;
+    margin: 10px;
+    height: 3px;
+    width: 40px;
+    transition: all 0.5s ease-in-out;
+}
+.menu {
+    margin: 5px;
+    border: none;
+    background-color: transparent;
+}
+
+
+/* search */
+.search {
+    position: relative;
+    height: 40px;
+    width: 500px;
+    border: none;
+    border-radius: 4px;
+    background-color: rgb(48, 51, 60);
+    color: white;
+    margin: 0px 80px;
+}
+.search:hover {
+    background-color: rgb(57, 61, 71);
+    transition-duration: 0.2s;
+}
+.search:focus {
+    outline: none;
+}
+.search::placeholder {
+    position: absolute;
+    transform: translate(-10px, -2px);
+}
+.search:focus::placeholder {
+    transform: translate(120px, -2px);
+    transition-duration: 0.5s;
+}
+/* search */
+
+@keyframes heart-beat {
+    from {
+        transform: scale(0.8);
+    }
+    to{
+        transform: scale(1);
+    }
+}
+
+
+/* donate */
+.donate {
+    width: 40px;
+    height: 40px;
+    background-color: rgb(48, 51, 60);
+    border: none;
+    border-radius: 4px;
+    margin: 5px;
+}
+.donate-img {
+    width: 27px;
+    height: 30px;
+    animation: heart-beat 0.4s alternate ease infinite;
+}
+.donate:hover {
+    background-color: rgb(57, 61, 71);
+    transition-duration: 0.2s;
+}
+/* donate */
+
+
+.user-panel {
+    align-items: center;
+    font-size: 13px;
+    color: white;
+    background-color: rgb(0, 0, 255);
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    height: 40px;
+    width: 80px;
+    margin: 5px;
+}
+.user-panel:hover {
+    background-color: rgb(70, 70, 255);
+    transition-duration: 0.2s;
+}
