@@ -1,2 +1,2 @@
 # Aiofilm
-A re make of on of pages from aiofilm. 
+A re make of one of pages from aiofilm. 
